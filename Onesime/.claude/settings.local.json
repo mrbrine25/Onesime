@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.djehooty.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:codeberg.org)",
+      "Bash(taskkill /F /IM electron.exe)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"try{require\\('canvas'\\);console.log\\('canvas ok'\\)}catch{console.log\\('no canvas'\\)}\")",
+      "Bash(node -e \"try{require\\('sharp'\\);console.log\\('sharp ok'\\)}catch{console.log\\('no sharp'\\)}\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/mbrin/Documents/genealogie/Onesime/scripts/generate-icon.ps1\")",
+      "Bash(node -e ' *)",
+      "Bash(xargs wc *)",
+      "Bash(CSC_IDENTITY_AUTO_DISCOVERY=false npm run package)",
+      "Bash(electron-vite build *)",
+      "Bash(node_modules/.bin/electron-builder --win zip --x64)",
+      "Bash(./node_modules/.bin/electron-vite build *)",
+      "Bash(./node_modules/.bin/electron-builder --win zip --x64)",
+      "Bash(npm install *)",
+      "Bash(npx electron-vite *)",
+      "Bash(date /t)",
+      "Bash(dir \"c:\\\\Users\\\\mbrin\\\\Documents\\\\genealogie\\\\logiciel\\\\Onesime\\\\build\\\\onesime-design\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\mbrin\\\\Documents\\\\genealogie\\\\logiciel\\\\convertisseur\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Sort-Object FullName)",
+      "Bash(node scripts/patch-pdf.js)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\mbrin\\\\Documents\\\\genealogie\\\\logiciel\\\\Onesime\\\\src\\\\renderer\\\\src\" -Recurse -Directory)",
+      "Bash(Select-Object -First 20)",
+      "WebSearch",
+      "WebFetch(domain:zenodo.org)"
+    ]
+  }
+}

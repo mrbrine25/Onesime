@@ -1,0 +1,24 @@
+appId: fr.onesime.app
+productName: Onésime
+directories:
+  buildResources: build
+  output: dist
+files:
+  - out/**/*
+  - node_modules/**/*
+  - '!node_modules/.cache'
+asarUnpack:
+  - out/renderer/models/**/*
+win:
+  executableName: Onesime
+  target:
+    - target: zip
+      arch: x64
+    - target: nsis
+      arch: x64
+nsis:
+  artifactName: Onesime-${version}-Setup.exe
+  shortcutName: Onésime
+  uninstallDisplayName: Onésime
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
