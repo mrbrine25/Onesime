@@ -1,0 +1,101 @@
+{
+  "app": {
+    "nom": "Onésime",
+    "version": "0.3.0",
+    "lienTelechargement": "https://github.com/mrbrine25/onesime/releases/latest"
+  },
+
+  "nav": {
+    "liens": [
+      { "texte": "Fonctionnalités", "href": "#fonctionnalites" },
+      { "texte": "Confidentialité", "href": "#confidentialite" },
+      { "texte": "Télécharger",     "href": "#telechargement" }
+    ]
+  },
+
+  "hero": {
+    "accroche":    "Logiciel de généalogie",
+    "titre":       "Vos archives,",
+    "titreAccent": "enfin à leur place.",
+    "description": "Onésime organise vos documents généalogiques — photos, actes, lettres, albums — sur votre ordinateur. Sans cloud. Sans abonnement. Vos données vous appartiennent.",
+    "note":        "Windows 10 / 11 · Gratuit · Aucun compte requis"
+  },
+
+  "barreStats": [
+    { "valeur": "12", "unite": " types", "libelle": "de documents" },
+    { "valeur": "100", "unite": "%",     "libelle": "hors-ligne"   },
+    { "valeur": "0",  "unite": "",       "libelle": "abonnement"   },
+    { "valeur": "0",  "unite": "",       "libelle": "données en ligne" }
+  ],
+
+  "sectionsFeatures": [
+    {
+      "oeil":        "Documents",
+      "titre":       "Annotez chaque détail, sans altérer l'original.",
+      "description": "Dessinez des zones sur vos images pour isoler un visage, un sceau, une signature. Ajoutez labels, notes et transcriptions. Le fichier source n'est jamais modifié.",
+      "points": [
+        "Éditeur photo non-destructif — recadrage, rotation, contraste, miroir",
+        "Zones annotées avec labels et transcriptions",
+        "Reconnaissance faciale 100 % locale — aucune donnée envoyée",
+        "Lien recto/verso entre deux documents, suggestion automatique"
+      ]
+    },
+    {
+      "oeil":        "Module Archives",
+      "titre":       "Gérez vos registres comme un archiviste.",
+      "description": "BMS, état civil, notaire… Saisissez chaque acte avec ses parties et ses rôles. Liez directement chaque personne à sa fiche individu. Exportez le registre entier en PDF.",
+      "points": [
+        "Registres BMS, état civil, notariaux",
+        "Actes avec parties, rôles, âges et lieux",
+        "Lien acte ↔ fiche Personne",
+        "Export PDF — couverture + une page par acte"
+      ]
+    }
+  ],
+
+  "capacites": {
+    "accroche":    "Tout ce qu'il faut",
+    "titre":       "Un outil complet, pas un outil compliqué.",
+    "description": "Tout ce dont vous avez besoin pour gérer vos archives, sans les fonctionnalités dont vous n'avez jamais besoin.",
+    "cartes": [
+      { "titre": "Multi-archives",       "description": "Organisez vos sources par fonds distincts — archives départementales, fonds familial, archives d'église.",           "couleur": "violet" },
+      { "titre": "Albums photo",         "description": "Galeries ordonnées avec légendes, recadrage, effets. Diaporama et export PDF intégrés.",                           "couleur": "orange" },
+      { "titre": "Frise chronologique",  "description": "Tous vos événements sur un axe temporel. Tri ascendant/descendant, filtres, éléments sans date.",                   "couleur": "vert"   },
+      { "titre": "Fiches & Personnes",   "description": "Fiche individu avec photo, dates et lieux. Fusion de doublons, consultation des actes liés.",                      "couleur": "violet" },
+      { "titre": "Tags & Recherche",     "description": "Étiquettes colorées sur documents et fiches. Recherche plein-texte, transcriptions incluses.",                     "couleur": "orange" },
+      { "titre": "HTR — Lecture auto",   "description": "Transcription automatique des manuscrits via Ollama. Le modèle IA tourne entièrement sur votre machine.",           "couleur": "or"     }
+    ]
+  },
+
+  "confidentialite": {
+    "titre":       "Tout reste chez vous.\nSans exception.",
+    "description": "Onésime ne possède aucun serveur, aucun compte, aucune télémétrie. La base de données vit sur votre ordinateur. Ce que vous archivez n'appartient qu'à vous.",
+    "stats": [
+      { "valeur": "0",  "libelle": "serveur distant"  },
+      { "valeur": "0",  "libelle": "compte requis"    },
+      { "valeur": "0",  "libelle": "télémétrie"       },
+      { "valeur": "∞",  "libelle": "données chez vous"}
+    ]
+  },
+
+  "telechargement": {
+    "titre":       "Prêt à commencer ?",
+    "description": "Onésime est gratuit. Téléchargez, installez, commencez. Aucun formulaire, aucune carte bancaire.",
+    "note":        "Windows 10 / 11 · 64-bit — Si Windows affiche un avertissement : Informations complémentaires → Exécuter quand même",
+    "meta": [
+      "Windows 10 / 11",
+      "Fonctionne hors-ligne",
+      "Aucune installation serveur",
+      "Données locales uniquement",
+      "Gratuit"
+    ]
+  },
+
+  "footer": {
+    "copyright": "© 2026 Amélien BRISEBARD & LCG",
+    "liens": [
+      { "texte": "Licence",  "href": "LICENSE"        },
+      { "texte": "Releases", "href": "../../releases" }
+    ]
+  }
+}
