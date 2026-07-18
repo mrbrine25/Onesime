@@ -53,9 +53,7 @@ Ouvrez n'importe quel document — image, PDF, vidéo, audio. Dessinez des zones
 
 ### Albums photo
 
-<img width="1830" height="991" alt="albums" src="https://github.com/user-attachments/assets/e417350f-35b4-4e55-81ac-b4c8be586795" />![Uploading archives.png .png…]()
-
-
+<img width="1830" height="991" alt="albums" src="https://github.com/user-attachments/assets/e417350f-35b4-4e55-81ac-b4c8be586795" />
 Composez des galeries ordonnées avec légendes. Recadrez, appliquez des effets, lancez un diaporama ou exportez en PDF.
 
 ---
