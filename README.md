@@ -1,100 +1,170 @@
-# Onésime
-
-Onésime est un logiciel libre de visualisation, d’annotation et d’organisation de documents et photographies, pensé avant tout pour les archives, la généalogie, l’histoire et la recherche documentaire.
-
-Le projet repose sur une idée simple :
-Travailler directement à partir de dossiers existants, sans import, sans duplication, sans enfermer les données.
 
 
-##  Objectifs du projet
+<div align="center">
+  <img width="1602" height="465" alt="banner" src="https://github.com/user-attachments/assets/f247daba-6ed7-4852-bf2d-100064af58f7" />
+</div>
 
-* 📂 Parcourir un dossier local et tous ses sous-dossiers
-* 🖼️ Afficher les images et documents tels qu’ils existent sur le disque
-* 🔗 Créer des liens logiques entre documents (ex. recto / verso)
-* 🧷 Créer des vignettes : zones sélectionnées dans une image ou un document
-* 🗂️ Regrouper plusieurs éléments dans une entité logique appelée Fiche
-* 🧠 Apporter un outil souple pour :
+<div align="center">
 
-  * la généalogie
-  * les archives familiales
-  * les fonds historiques
-  * la recherche et l’étude
-  
-## 📌 Philosophie du projet
+![Version](https://img.shields.io/badge/version-0.3.0-8b5cf6?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows)
+![Electron](https://img.shields.io/badge/Electron-31-47848F?style=flat-square&logo=electron)
+![Licence](https://img.shields.io/badge/licence-propriétaire-orange?style=flat-square)
 
-Onésime se veut :
+</div>
 
-* libre
-* local
-* durable
-* respectueux des données et des archives
+<br>
 
+**Onésime** est un logiciel de bureau pour **organiser, annoter et explorer vos archives généalogiques** — photos de famille, actes notariés, lettres, médailles, carnets… Toutes vos données restent sur votre ordinateur. Aucun cloud, aucun abonnement, aucune fuite.
 
-## Concepts clés
-### Mindmap
+---
 
-<img width="1920" height="1080" alt="Onésime" src="https://github.com/user-attachments/assets/16587ee3-aae1-486d-a5b7-7ccd66d14631" />
+## Téléchargement
 
-### 📁 Dossiers
+Rendez-vous dans l'onglet **[Releases](../../releases/latest)** pour télécharger la dernière version.
 
-* Aucun import
-* Aucun doublon
-* Onésime lit directement ce qui est présent sur le disque
+| Fichier | Système |
+|---|---|
+| `Onesime-Setup-0.3.0.exe` | Windows 10 / 11 |
 
-### 📄 Fiche
+> **Note Windows** — À la première exécution, Windows peut afficher un avertissement « application inconnue ». Cliquez sur **Informations complémentaires → Exécuter quand même** pour lancer l'installation.
 
-Une Fiche est une entité logique qui peut regrouper :
+---
 
-* une ou plusieurs images
-* recto / verso
-* documents liés entre eux
-  (exemple : photo d’un soldat + lettre envoyée à sa femme)
+## Aperçu
 
-### 🖼️ Vignette
+### Explorateur de documents
 
-Une vignette est une zone sélectionnée à la souris dans une image ou un document.
-Elle permet de mettre en évidence un détail précis (visage, signature, cachet, etc.). Elle est anotable, si plusieurs vignettes ont le même nom cela propose de les regrouper dans une fiches.
-
-*Pour avoir le descriptif complet des fonctionnalités, regarder la mindmap ou le fichier projet.*
+<img width="1917" height="991" alt="explorer" src="https://github.com/user-attachments/assets/4eafd34d-c694-4571-8bdc-b23d6302e4c4" />
 
 
-## 🚧 État du projet
+Parcourez vos archives sous forme de grille de vignettes avec lazy loading. Filtrez par type de document (photo, lettre, carte postale…), triez, recherchez.
 
-🔨 **Projet en cours de conception**
+---
 
-Onésime est actuellement :
+### Annotation et zones
 
-* en phase de réflexion fonctionnelle
-* ouvert à la discussion technique
-* ouvert aux propositions d’architecture
-
-Aucune technologie n’est figée à ce stade.
-
-# Maquette
-Voici la première maquette visuelle, bien évidemment beaucoup de choses seront à revoir
-
-<img width="1920" height="1080" alt="Acceuil" src="https://github.com/user-attachments/assets/181aa5ab-fdf4-4f93-affa-20699245dfc6" />
-
-<img width="1920" height="1080" alt="Documents" src="https://github.com/user-attachments/assets/4c6e2300-9345-444f-8e0d-c43e874cf885" />
-
-<img width="1920" height="1080" alt="Fiches" src="https://github.com/user-attachments/assets/6fa9d832-7e6b-4c48-9489-810d4c1dc8c7" />
-
-<img width="1920" height="1080" alt="Page fiches" src="https://github.com/user-attachments/assets/c7a22490-f481-41b1-8cee-706ca4a2544e" />
-
-<img width="1920" height="1080" alt="Crédit" src="https://github.com/user-attachments/assets/5ab9eed2-a352-40c2-b2d6-40dca712ec41" />
+<img width="1912" height="982" alt="document" src="https://github.com/user-attachments/assets/4fa1223c-173b-4ef9-9aa9-e9d53439da28" />
 
 
-## 🤝 Contribution
+Ouvrez n'importe quel document — image, PDF, vidéo, audio. Dessinez des zones sur une image pour annoter des détails, ajoutez labels, notes et transcriptions. Éditeur photo non-destructif intégré (recadrage, rotation, luminosité, contraste, miroir).
 
-La contribution est **ouverte à tous et toutes**.
+---
 
-Sont bienvenues :
+### Albums photo
 
-* idées
-* réflexions fonctionnelles
-* propositions techniques
-* développement
-* design / UI
-* documentation
+<img width="1830" height="991" alt="albums" src="https://github.com/user-attachments/assets/e417350f-35b4-4e55-81ac-b4c8be586795" />![Uploading archives.png .png…]()
 
-Même une simple discussion ou suggestion a de la valeur.
+
+Composez des galeries ordonnées avec légendes. Recadrez, appliquez des effets, lancez un diaporama ou exportez en PDF.
+
+---
+
+### Module Archives — Registres & Actes
+
+<img width="1912" height="677" alt="archives" src="https://github.com/user-attachments/assets/f93d1a79-50fd-483e-8402-db7ccff8f314" />
+
+
+Gérez vos registres (BMS, état civil, notariés…) avec leur liste d'actes. Saisissez les parties avec rôle, âge et lieu, et liez-les directement à vos fiches Personnes.
+
+---
+
+### Frise chronologique
+
+<img width="1842" height="751" alt="timeline" src="https://github.com/user-attachments/assets/9a4479c2-3124-4a1e-b451-9b1f251fddf7" />
+
+
+Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les deux sens, identifiez les éléments sans date.
+
+---
+
+## Fonctionnalités
+
+<details>
+<summary><strong>Archives & Documents</strong></summary>
+
+- Multi-archives — organisez vos sources par fonds (archives départementales, fonds familial, archives d'église…)
+- Scanner les nouvelles photos d'un dossier sans recréer toute l'archive
+- Relocalisation d'archive — déplacez un dossier sans perdre vos données
+- 12 types de document avec auto-détection par nom de fichier — photo, carte postale, lettre, médaille, carnet, faire-part, diplôme, carte d'identité, journal, plan, affiche, autre
+- Visionneuse universelle — images, PDF, vidéo, audio
+- Éditeur photo non-destructif — recadrage, rotation, luminosité, contraste, miroir
+- Zones (vignettes) — dessinez des zones sur un document, ajoutez label, notes, transcription
+- Lien recto/verso — associez deux documents face/dos et retournez-les d'un clic
+- Export/import JSON par archive, backup et restauration de la base de données
+
+</details>
+
+<details>
+<summary><strong>Personnes & Fiches</strong></summary>
+
+- Fiches — regroupez des documents autour d'un thème ou d'un événement, ajoutez un avatar
+- Personnes — créez une fiche individu avec photo de profil, dates et lieux de naissance/décès
+- Fusion de doublons
+- Actes liés — retrouvez tous les actes où une personne apparaît directement depuis sa fiche
+
+</details>
+
+<details>
+<summary><strong>Module Archives (généalogie avancée)</strong></summary>
+
+- Registres — BMS, état civil, notaire… avec liste d'actes intégrée
+- Actes — parties avec rôle, âge, lieu, liées à des fiches Personnes
+- Export PDF registre — couverture + une page par acte, prêt à imprimer
+
+</details>
+
+<details>
+<summary><strong>Organisation & Recherche</strong></summary>
+
+- Albums — galeries ordonnées, diaporama, export PDF
+- Tags — étiquettes colorées sur documents et fiches, registre complet avec compteurs
+- Frise chronologique — axe temporel, tri ascendant/descendant
+- Recherche plein-texte — documents, fiches, personnes, transcriptions
+
+</details>
+
+<details>
+<summary><strong>Intelligence locale</strong></summary>
+
+- Reconnaissance faciale — détection et indexation des visages, 100 % sur votre machine, aucune donnée envoyée en ligne
+- HTR (transcription automatique) — lisez les vieux manuscrits grâce à [Ollama](https://ollama.com/) + qwen2.5-vl (modèle IA local, optionnel)
+
+</details>
+
+---
+
+## Stack technique
+
+| Couche | Technologie |
+|---|---|
+| Desktop | Electron 31 |
+| UI | React 18 + TypeScript + Tailwind CSS |
+| Base de données | sql.js (SQLite / WebAssembly) |
+| Reconnaissance faciale | face-api.js (modèles locaux) |
+| HTR | Ollama + qwen2.5-vl:7b |
+| Export PDF | Electron `printToPDF` |
+
+---
+
+## Données & confidentialité
+
+La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine. Onésime fonctionne entièrement hors-ligne — aucun compte requis, aucun serveur distant.
+
+---
+
+## Licence
+
+Ce logiciel est distribué sous **Licence Onésime v1.0** (propriétaire).
+
+- Utilisation personnelle et consultation du code source à des fins éducatives : **autorisées**
+- Redistribution, revente ou exploitation commerciale : **interdites sans autorisation écrite**
+
+Voir le fichier [LICENSE](./LICENSE) pour le texte complet.
+
+---
+
+## Auteur
+
+Développé par **Amélien BRISEBARD**.
+
