@@ -1,7 +1,7 @@
 {
   "app": {
     "nom": "Onésime",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "lienTelechargement": "https://github.com/mrbrine25/onesime/releases/latest"
   },
 
@@ -18,7 +18,7 @@
     "titre":       "Vos archives,",
     "titreAccent": "enfin à leur place.",
     "description": "Onésime organise vos documents généalogiques — photos, actes, lettres, albums — sur votre ordinateur. Sans cloud. Sans abonnement. Vos données vous appartiennent.",
-    "note":        "Windows 10 / 11 · Gratuit · Aucun compte requis"
+    "note":        "Windows 10 / 11 · macOS · Gratuit · Aucun compte requis"
   },
 
   "barreStats": [
@@ -81,9 +81,10 @@
   "telechargement": {
     "titre":       "Prêt à commencer ?",
     "description": "Onésime est gratuit. Téléchargez, installez, commencez. Aucun formulaire, aucune carte bancaire.",
-    "note":        "Windows 10 / 11 · 64-bit — Si Windows affiche un avertissement : Informations complémentaires → Exécuter quand même",
+    "note":        "Windows 10 / 11 · macOS Apple Silicon & Intel — Si Windows affiche un avertissement : Informations complémentaires → Exécuter quand même · Sur macOS : Clic droit → Ouvrir au premier lancement",
     "meta": [
       "Windows 10 / 11",
+      "macOS (Apple Silicon & Intel)",
       "Fonctionne hors-ligne",
       "Aucune installation serveur",
       "Données locales uniquement",
