@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.3.0-8b5cf6?style=flat-square)
+![Version](https://img.shields.io/github/v/release/mrbrine25/Onesime?style=flat-square&color=8b5cf6&label=version)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows)
 ![Electron](https://img.shields.io/badge/Electron-31-47848F?style=flat-square&logo=electron)
 ![Licence](https://img.shields.io/badge/licence-propriétaire-orange?style=flat-square)
@@ -25,7 +25,7 @@ Rendez-vous dans l'onglet **[Releases](../../releases/latest)** pour télécharg
 
 | Fichier | Système |
 |---|---|
-| `Onesime-Setup-0.3.0.exe` | Windows 10 / 11 |
+| [⬇ Onesime-Setup.exe](../../releases/latest) | Windows 10 / 11 |
 
 > **Note Windows** — À la première exécution, Windows peut afficher un avertissement « application inconnue ». Cliquez sur **Informations complémentaires → Exécuter quand même** pour lancer l'installation.
 
@@ -163,6 +163,5 @@ Voir le fichier [LICENSE](./LICENSE) pour le texte complet.
 ---
 
 ## Auteur
-
 Développé par **Amélien BRISEBARD**.
 
