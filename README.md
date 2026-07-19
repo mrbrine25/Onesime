@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img width="1602" height="465" alt="banner" src="https://github.com/user-attachments/assets/f247daba-6ed7-4852-bf2d-100064af58f7" />
+  <img width="1600" height="500" alt="banner" src="https://github.com/user-attachments/assets/243d8f0a-1e5b-4d4f-ae4c-1ad410820d6b" />
 </div>
 
 <div align="center">
@@ -10,6 +10,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue?style=flat-square&logo=windows)
 ![Electron](https://img.shields.io/badge/Electron-31-47848F?style=flat-square&logo=electron)
 ![Licence](https://img.shields.io/badge/licence-propriétaire-orange?style=flat-square)
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/N8ayZbzeye)
 
 </div>
 

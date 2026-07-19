@@ -378,7 +378,7 @@ function render(d){
   // Nav
   document.getElementById('nb').innerHTML=`<div class="lm" style="width:32px;height:32px"><span></span><span></span><span></span><span></span></div>${a.nom}`;
   document.getElementById('nl').innerHTML=d.nav.liens.map(l=>`<li><a href="${l.href}">${l.texte}</a></li>`).join('');
-  document.getElementById('ndl').textContent=`Télécharger v${a.version}`;
+  document.getElementById('ndl').textContent='Windows · macOS';
 
   // Hero
   const h=d.hero;
