@@ -1,0 +1,56 @@
+<title>Onésime — Bannière GitHub</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #090f1c; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .banner { width: 1280px; height: 400px; background: #090f1c; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .bg { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(20, 64px); gap: 0; opacity: .04; transform: rotate(-8deg) scale(1.3); transform-origin: center; pointer-events: none; }
+  .tile { width: 40px; height: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px; margin: 8px; border-radius: 5px; overflow: hidden; }
+  .tile span { display: block; border-radius: 2px; }
+  .tile span:nth-child(1) { background: #8b5cf6; }
+  .tile span:nth-child(2) { background: #f97316; }
+  .tile span:nth-child(3) { background: #f97316; }
+  .tile span:nth-child(4) { background: #8b5cf6; }
+  .glow { position: absolute; width: 600px; height: 320px; background: radial-gradient(ellipse, rgba(139,92,246,.13) 0%, transparent 70%); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
+  .rule { position: absolute; left: 80px; right: 80px; height: 1px; }
+  .rule.top { top: 44px; background: linear-gradient(90deg, transparent, rgba(139,92,246,.35) 20%, rgba(249,115,22,.35) 80%, transparent); }
+  .rule.bot { bottom: 44px; background: linear-gradient(90deg, transparent, rgba(249,115,22,.35) 20%, rgba(139,92,246,.35) 80%, transparent); }
+  .content { position: relative; z-index: 10; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .logo { width: 52px; height: 52px; display: grid; grid-template-columns: 1fr 1fr; gap: 5px; background: #111d35; border-radius: 11px; padding: 9px; }
+  .logo span { display: block; border-radius: 3px; }
+  .logo span:nth-child(1) { background: #8b5cf6; }
+  .logo span:nth-child(2) { background: #f97316; }
+  .logo span:nth-child(3) { background: #f97316; }
+  .logo span:nth-child(4) { background: #8b5cf6; }
+  h1 { font-family: Georgia, serif; font-size: 72px; font-weight: normal; color: #e8e0d5; letter-spacing: -1px; line-height: 1; }
+  h1 em { color: #8b5cf6; font-style: normal; }
+  .tagline { font-size: 16px; color: rgba(232,224,213,.5); letter-spacing: .13em; text-transform: uppercase; }
+  .badges { display: flex; gap: 10px; margin-top: 4px; }
+  .badge { padding: 4px 13px; border-radius: 99px; font-size: 12px; font-weight: 500; letter-spacing: .04em; }
+  .badge.v { background: rgba(139,92,246,.15); color: #c4b5fd; border: 1px solid rgba(139,92,246,.3); }
+  .badge.p { background: rgba(255,255,255,.06); color: #c2b9a8; border: 1px solid rgba(255,255,255,.1); }
+  .badge.g { background: rgba(52,211,153,.1); color: #6ee7b7; border: 1px solid rgba(52,211,153,.25); }
+</style>
+<div class="banner">
+  <div class="bg" id="bg"></div>
+  <div class="glow"></div>
+  <div class="rule top"></div>
+  <div class="rule bot"></div>
+  <div class="content">
+    <div class="logo"><span></span><span></span><span></span><span></span></div>
+    <h1>On<em>é</em>sime</h1>
+    <div class="tagline">Gestion d'archives familiales</div>
+    <div class="badges">
+      <span class="badge v">Windows · macOS</span>
+      <span class="badge p">100 % privé</span>
+      <span class="badge g">Gratuit</span>
+    </div>
+  </div>
+</div>
+<script>
+  const bg = document.getElementById('bg');
+  for (let i = 0; i < 140; i++) {
+    const t = document.createElement('div'); t.className = 'tile';
+    for (let j = 0; j < 4; j++) t.appendChild(document.createElement('span'));
+    bg.appendChild(t);
+  }
+</script>
