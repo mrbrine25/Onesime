@@ -36,6 +36,12 @@ Rendez-vous dans l'onglet **[Releases](../../releases/latest)** pour télécharg
 
 ---
 
+## Documentation
+
+📘 **[Guide complet (PDF)](../docs/Onesime-Tutoriel.pdf)** — tutoriel illustré : démarrage, documents et vignettes, albums, fiches, personnes, tags, module Archives, réglages. Aussi consultable depuis l'app (À propos).
+
+---
+
 ## Aperçu
 
 ### Explorateur de documents
