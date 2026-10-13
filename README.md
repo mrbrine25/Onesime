@@ -16,7 +16,7 @@
 
 <br>
 
-**Onésime** est un logiciel de bureau pour **organiser, annoter et explorer vos archives généalogiques** — photos de famille, actes notariés, lettres, médailles, carnets… Toutes vos données restent sur votre ordinateur. Aucun cloud, aucun abonnement, aucune fuite.
+**Onésime** est un logiciel de bureau pour **organiser, annoter et explorer vos archives généalogiques** — photos de famille, actes notariés, lettres, médailles, carnets… Toutes vos données restent sur votre ordinateur. Aucun cloud (sauf si vous choisissez d'utiliser OneDrive), aucun abonnement, aucune fuite.
 
 ---
 
@@ -93,6 +93,7 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 <summary><strong>Archives & Documents</strong></summary>
 
 - Multi-archives — organisez vos sources par fonds (archives départementales, fonds familial, archives d'église…)
+- Archives OneDrive (en option) — utilisez un dossier OneDrive comme dossier souche, en lecture seule ; les fichiers ne sont téléchargés que lorsque vous les ouvrez
 - Scanner les nouvelles photos d'un dossier sans recréer toute l'archive
 - Relocalisation d'archive — déplacez un dossier sans perdre vos données
 - 12 types de document avec auto-détection par nom de fichier — photo, carte postale, lettre, médaille, carnet, faire-part, diplôme, carte d'identité, journal, plan, affiche, autre
@@ -159,6 +160,8 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 ## Données & confidentialité
 
 La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine. Onésime fonctionne entièrement hors-ligne — aucun compte requis, aucun serveur distant.
+
+Seule exception, et seulement si vous la choisissez : une archive peut pointer vers un dossier de votre **OneDrive**. Onésime se connecte alors à votre compte Microsoft en **lecture seule** (il ne peut rien modifier, supprimer ni déposer sur votre OneDrive) et télécharge sur votre ordinateur les fichiers que vous ouvrez. Vos fiches, vignettes, personnes et tags restent, eux, uniquement sur votre machine.
 
 ---
 
