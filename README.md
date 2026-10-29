@@ -159,7 +159,9 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 
 ## Données & confidentialité
 
-La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine. Onésime fonctionne entièrement hors-ligne — aucun compte requis, aucun serveur distant.
+La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine : Onésime fonctionne hors-ligne, sans compte ni serveur à lui. Il se connecte seulement pour vérifier au démarrage si une mise à jour est disponible (sur GitHub, sans rien envoyer vous concernant).
+
+Depuis **À propos**, vous pouvez sauvegarder cette base en un clic ou activer une sauvegarde automatique quotidienne (les 10 dernières sont gardées), dans le dossier de votre choix — idéalement sur un autre disque ou une clé USB.
 
 Seule exception, et seulement si vous la choisissez : une archive peut pointer vers un dossier de votre **OneDrive**. Onésime se connecte alors à votre compte Microsoft en **lecture seule** (il ne peut rien modifier, supprimer ni déposer sur votre OneDrive) et télécharge sur votre ordinateur les fichiers que vous ouvrez. Vos fiches, vignettes, personnes et tags restent, eux, uniquement sur votre machine.
 
