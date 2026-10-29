@@ -22,13 +22,24 @@
 
 ## Téléchargement
 
-Rendez-vous dans l'onglet **[Releases](../../releases/latest)** pour télécharger la dernière version.
+### 👉 [Télécharger Onésime](https://mrbrine25.github.io/Onesime/#telechargement)
 
-| Fichier | Système |
+La page propose directement le bon fichier pour votre ordinateur : un clic, et le téléchargement démarre.
+
+<details>
+<summary>Ou choisir soi-même le fichier, sur la page des versions</summary>
+
+Sur la **[dernière version](https://github.com/mrbrine25/Onesime/releases/latest)**, tout en bas (« Assets »), prenez **un seul** fichier :
+
+| Votre ordinateur | Fichier à télécharger |
 |---|---|
-| [⬇ Onesime-Setup.exe](../../releases/latest) | Windows 10 / 11 (64-bit) |
-| [⬇ Onesime-mac-arm64.dmg](../../releases/latest) | macOS — Apple Silicon (M1, M2, M3…) |
-| [⬇ Onesime-mac-x64.dmg](../../releases/latest) | macOS — Intel |
+| Windows 10 / 11 | `Onesime-…-Setup.exe` |
+| Mac récent (puce Apple M1, M2, M3…) | `Onesime-…-mac-arm64.dmg` |
+| Mac Intel (avant 2020) | `Onesime-…-mac-x64.dmg` |
+
+Les autres fichiers (`latest.yml`, `.blockmap`…) servent aux mises à jour automatiques : inutile de les télécharger.
+
+</details>
 
 > **Note Windows** — À la première exécution, Windows peut afficher un avertissement « application inconnue ». Cliquez sur **Informations complémentaires → Exécuter quand même** pour lancer l'installation.
 
@@ -46,44 +57,65 @@ Rendez-vous dans l'onglet **[Releases](../../releases/latest)** pour télécharg
 
 ### Explorateur de documents
 
-<img width="1917" height="991" alt="explorer" src="https://github.com/user-attachments/assets/4eafd34d-c694-4571-8bdc-b23d6302e4c4" />
+[image explorateur.png]
 
-
-Parcourez vos archives sous forme de grille de vignettes avec lazy loading. Filtrez par type de document (photo, lettre, carte postale…), triez, recherchez.
+Parcourez vos archives sous forme de grille de vignettes. Filtrez par type de document (photo, lettre, carte postale…), triez, recherchez. Les photos avec un recto et un verso sont regroupées sur une seule carte (badge R/V), et un clic droit sur n'importe quelle photo ouvre un menu rapide : choisir son verso, l'ajouter à un album, l'afficher dans son dossier.
 
 ---
 
-### Annotation et zones
+### Vignettes et visages
 
-<img width="1912" height="982" alt="document" src="https://github.com/user-attachments/assets/4fa1223c-173b-4ef9-9aa9-e9d53439da28" />
+[image document.png]
 
+Ouvrez n'importe quel document — image, PDF, vidéo, audio. Délimitez une zone sur une image (un visage, une signature, un cachet), donnez-lui un nom, des notes, une transcription, et reliez-la à une personne. Onésime détecte les visages, les reconnaît d'une photo à l'autre et vous suggère qui c'est — sans jamais rien relier sans votre accord. Tout ce que vous tapez s'enregistre tout seul.
 
-Ouvrez n'importe quel document — image, PDF, vidéo, audio. Dessinez des zones sur une image pour annoter des détails, ajoutez labels, notes et transcriptions. Éditeur photo non-destructif intégré (recadrage, rotation, luminosité, contraste, miroir).
+---
+
+### Transcription automatique
+
+[image htr-transcription.png]
+
+Onésime lit l'écriture d'un acte, d'une lettre ou du dos d'une photo et en propose le texte. L'IA est incluse et tourne **entièrement sur votre ordinateur** : téléchargez le modèle une fois depuis l'application, puis la transcription marche même sans connexion. Un premier jet à relire, qui fait gagner un temps précieux sur les longues pages.
+
+---
+
+### Rogner et redresser les photos
+
+[image editeur-photo.png]
+
+Remettez droit un tirage scanné de travers, rognez les bords, ajustez luminosité et contraste. La retouche s'applique partout dans Onésime et dans les exports, mais **vos fichiers d'origine ne sont jamais modifiés**.
 
 ---
 
 ### Albums photo
 
-<img width="1830" height="991" alt="albums" src="https://github.com/user-attachments/assets/e417350f-35b4-4e55-81ac-b4c8be586795" />
-Composez des galeries ordonnées avec légendes. Recadrez, appliquez des effets, lancez un diaporama ou exportez en PDF.
+[image album-grille.png]
+
+Composez des albums dans l'ordre de votre choix, avec un « Nommé » propre à chaque album. Lancez un diaporama, exportez en PDF (planches ou vue détaillée avec versos et identifications), ou créez un **mini-site** à partager avec la famille, qui s'ouvre dans n'importe quel navigateur, sans internet.
+
+---
+
+### Personnes et chronologie de vie
+
+[image personne-fiche.png]
+
+Chaque personne a sa fiche : ses dates et lieux, ses photos identifiées, les actes où elle apparaît, et sa chronologie de vie — naissance, baptême, photos, mariage, décès — avec son âge à chaque étape.
 
 ---
 
 ### Module Archives — Registres & Actes
 
-<img width="1912" height="677" alt="archives" src="https://github.com/user-attachments/assets/f93d1a79-50fd-483e-8402-db7ccff8f314" />
+[image registres.png]
 
-
-Gérez vos registres (BMS, état civil, notariés…) avec leur liste d'actes. Saisissez les parties avec rôle, âge et lieu, et liez-les directement à vos fiches Personnes.
+Dépouillez vos registres (BMS, état civil, notariés…) avec leur cote d'archives. Saisissez les parties de chaque acte avec leur rôle, leur âge et leur profession : Onésime compose la source prête à citer, rattache la photo de l'événement, et propose de reporter l'acte sur les fiches des personnes.
 
 ---
 
-### Frise chronologique
+### Retrouver les doublons
 
-<img width="1842" height="751" alt="timeline" src="https://github.com/user-attachments/assets/9a4479c2-3124-4a1e-b451-9b1f251fddf7" />
+[image doublons.png]
 
-
-Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les deux sens, identifiez les éléments sans date.
+Une même photo scannée deux fois ou renommée ? Onésime compare les images elles-mêmes, pas leurs noms, et vous indique laquelle garder. Retirer un doublon ne supprime jamais le fichier.
 
 ---
 
@@ -98,28 +130,38 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 - Relocalisation d'archive — déplacez un dossier sans perdre vos données
 - 12 types de document avec auto-détection par nom de fichier — photo, carte postale, lettre, médaille, carnet, faire-part, diplôme, carte d'identité, journal, plan, affiche, autre
 - Visionneuse universelle — images, PDF, vidéo, audio
-- Éditeur photo non-destructif — recadrage, rotation, luminosité, contraste, miroir
-- Zones (vignettes) — dessinez des zones sur un document, ajoutez label, notes, transcription
-- Lien recto/verso — associez deux documents face/dos et retournez-les d'un clic
-- Export/import JSON par archive, backup et restauration de la base de données
+- Éditeur photo non-destructif — rognage et redressement, rotation, luminosité, contraste, miroir
+- Zones (vignettes) — délimitez des zones sur un document, ajoutez nom, notes, transcription
+- Recto/verso — associés automatiquement quand le nom du fichier contient « verso », ou à la main
+- Clic droit sur une photo, partout — verso, albums, afficher dans le dossier
+- Recherche des doublons, même renommés ou redimensionnés
+- Enregistrement automatique — plus de bouton « Enregistrer » à ne pas oublier
+- Sauvegarde de vos données en un clic ou chaque jour, avec restauration
+- Export/import d'une archive pour changer d'ordinateur
 
 </details>
 
 <details>
 <summary><strong>Personnes & Fiches</strong></summary>
 
-- Fiches — regroupez des documents autour d'un thème ou d'un événement, ajoutez un avatar
-- Personnes — créez une fiche individu avec photo de profil, dates et lieux de naissance/décès
+- Personnes — fiche individu avec photo de profil, dates et lieux de naissance et de décès, prénom usuel souligné
+- Chronologie de vie — naissance, actes, photos et décès dans l'ordre, avec l'âge à chaque étape
+- Import GEDCOM — remplissez la liste des personnes depuis votre logiciel d'arbre
 - Fusion de doublons
-- Actes liés — retrouvez tous les actes où une personne apparaît directement depuis sa fiche
+- Export « dossier » PDF et mini-site d'une personne
+- PDF « Aidez-moi à identifier » — les visages inconnus, à faire remplir par la famille
+- Fiches — regroupez des documents autour d'un lieu, d'un objet ou d'un thème
 
 </details>
 
 <details>
 <summary><strong>Module Archives (généalogie avancée)</strong></summary>
 
-- Registres — BMS, état civil, notaire… avec liste d'actes intégrée
-- Actes — parties avec rôle, âge, lieu, liées à des fiches Personnes
+- Registres — BMS, état civil, notaire… avec liste d'actes et cote d'archives
+- Actes — parties avec rôle, âge, profession, domicile, liées aux fiches Personnes
+- Source composée automatiquement, prête à citer
+- Photos de l'événement rattachées à l'acte (la photo du mariage à l'acte de mariage)
+- Report d'un acte sur les personnes — créer leurs fiches, compléter dates et lieux sans rien écraser
 - Export PDF registre — couverture + une page par acte, prêt à imprimer
 
 </details>
@@ -127,18 +169,18 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 <details>
 <summary><strong>Organisation & Recherche</strong></summary>
 
-- Albums — galeries ordonnées, diaporama, export PDF
+- Albums — galeries ordonnées, diaporama, export PDF, mini-site à partager
 - Tags — étiquettes colorées sur documents et fiches, registre complet avec compteurs
-- Frise chronologique — axe temporel, tri ascendant/descendant
-- Recherche plein-texte — documents, fiches, personnes, transcriptions
+- Frise chronologique — axe temporel, tri dans les deux sens, éléments sans date regroupés
+- Recherche plein-texte — documents, fiches, personnes, transcriptions, noms des vignettes
 
 </details>
 
 <details>
 <summary><strong>Intelligence locale</strong></summary>
 
-- Reconnaissance faciale — détection et indexation des visages, 100 % sur votre machine, aucune donnée envoyée en ligne
-- HTR (transcription automatique) — lisez les vieux manuscrits grâce à [Ollama](https://ollama.com/) + qwen2.5-vl (modèle IA local, optionnel)
+- Reconnaissance faciale — détection et indexation des visages, suggestions de ressemblance, 100 % sur votre machine
+- Transcription automatique — Onésime lit l'écriture d'un acte, d'une lettre ou du dos d'une photo et en propose le texte, avec une IA incluse qui tourne entièrement sur votre ordinateur (modèle téléchargé une fois depuis l'app, rien à installer à part)
 
 </details>
 
@@ -152,14 +194,14 @@ Visualisez tous vos événements sur un axe temporel. Filtrez, triez dans les de
 | UI | React 18 + TypeScript + Tailwind CSS |
 | Base de données | sql.js (SQLite / WebAssembly) |
 | Reconnaissance faciale | face-api.js (modèles locaux) |
-| HTR | Ollama + qwen2.5-vl:7b |
+| Transcription (HTR) | llama.cpp (inclus) + Qwen3.5 4B / 9B, téléchargé à la demande |
 | Export PDF | Electron `printToPDF` |
 
 ---
 
 ## Données & confidentialité
 
-La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine : Onésime fonctionne hors-ligne, sans compte ni serveur à lui. Il se connecte seulement pour vérifier au démarrage si une mise à jour est disponible (sur GitHub, sans rien envoyer vous concernant).
+La base de données SQLite est stockée **localement sur votre ordinateur** (répertoire de données utilisateur géré par Electron). Aucune donnée ne quitte votre machine : Onésime fonctionne hors-ligne, sans compte ni serveur à lui. Il se connecte seulement pour vérifier au démarrage si une mise à jour est disponible (sur GitHub, sans rien envoyer vous concernant), et, si vous le demandez, pour télécharger une fois le modèle de transcription automatique (sur Hugging Face) : ensuite, la transcription se fait entièrement sur votre ordinateur, sans connexion.
 
 Depuis **À propos**, vous pouvez sauvegarder cette base en un clic ou activer une sauvegarde automatique quotidienne (les 10 dernières sont gardées), dans le dossier de votre choix — idéalement sur un autre disque ou une clé USB.
 
