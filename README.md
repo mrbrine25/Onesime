@@ -73,7 +73,7 @@ Ouvrez n'importe quel document — image, PDF, vidéo, audio. Délimitez une zon
 
 ### Transcription automatique
 
-<img width="1304" height="821" alt="htr-transcription" src="https://github.com/user-attachments/assets/80b7bc81-17b4-48ed-a5fc-94f6bbfdcecc" />
+<img width="1304" height="821" alt="htr-transcription" src="https://github.com/user-attachments/assets/a8e31ff8-9172-4552-b740-94542db54854" />
 
 Onésime lit l'écriture d'un acte, d'une lettre ou du dos d'une photo et en propose le texte. L'IA est incluse et tourne **entièrement sur votre ordinateur** : téléchargez le modèle une fois depuis l'application, puis la transcription marche même sans connexion. Un premier jet à relire, qui fait gagner un temps précieux sur les longues pages.
 
