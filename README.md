@@ -57,7 +57,7 @@ Les autres fichiers (`latest.yml`, `.blockmap`…) servent aux mises à jour aut
 
 ### Explorateur de documents
 
-[image explorateur.png]
+<img width="1304" height="821" alt="explorateur" src="https://github.com/user-attachments/assets/d16ade07-a564-4121-aad0-642d5fffe55a" />
 
 Parcourez vos archives sous forme de grille de vignettes. Filtrez par type de document (photo, lettre, carte postale…), triez, recherchez. Les photos avec un recto et un verso sont regroupées sur une seule carte (badge R/V), et un clic droit sur n'importe quelle photo ouvre un menu rapide : choisir son verso, l'ajouter à un album, l'afficher dans son dossier.
 
@@ -65,7 +65,7 @@ Parcourez vos archives sous forme de grille de vignettes. Filtrez par type de do
 
 ### Vignettes et visages
 
-[image document.png]
+<img width="1304" height="821" alt="document" src="https://github.com/user-attachments/assets/59315221-e772-441e-ad0d-de10f66927ea" />
 
 Ouvrez n'importe quel document — image, PDF, vidéo, audio. Délimitez une zone sur une image (un visage, une signature, un cachet), donnez-lui un nom, des notes, une transcription, et reliez-la à une personne. Onésime détecte les visages, les reconnaît d'une photo à l'autre et vous suggère qui c'est — sans jamais rien relier sans votre accord. Tout ce que vous tapez s'enregistre tout seul.
 
@@ -73,7 +73,7 @@ Ouvrez n'importe quel document — image, PDF, vidéo, audio. Délimitez une zon
 
 ### Transcription automatique
 
-[image htr-transcription.png]
+<img width="1304" height="821" alt="htr-transcription" src="https://github.com/user-attachments/assets/80b7bc81-17b4-48ed-a5fc-94f6bbfdcecc" />
 
 Onésime lit l'écriture d'un acte, d'une lettre ou du dos d'une photo et en propose le texte. L'IA est incluse et tourne **entièrement sur votre ordinateur** : téléchargez le modèle une fois depuis l'application, puis la transcription marche même sans connexion. Un premier jet à relire, qui fait gagner un temps précieux sur les longues pages.
 
@@ -81,7 +81,7 @@ Onésime lit l'écriture d'un acte, d'une lettre ou du dos d'une photo et en pro
 
 ### Rogner et redresser les photos
 
-[image editeur-photo.png]
+<img width="1304" height="821" alt="editeur-photo" src="https://github.com/user-attachments/assets/82d0d830-2c1b-4d59-b79d-59bcadc3fec2" />
 
 Remettez droit un tirage scanné de travers, rognez les bords, ajustez luminosité et contraste. La retouche s'applique partout dans Onésime et dans les exports, mais **vos fichiers d'origine ne sont jamais modifiés**.
 
@@ -89,7 +89,7 @@ Remettez droit un tirage scanné de travers, rognez les bords, ajustez luminosit
 
 ### Albums photo
 
-[image album-grille.png]
+<img width="1304" height="821" alt="album-grille" src="https://github.com/user-attachments/assets/5a911810-1ed7-45d5-95e9-88c1087bf25b" />
 
 Composez des albums dans l'ordre de votre choix, avec un « Nommé » propre à chaque album. Lancez un diaporama, exportez en PDF (planches ou vue détaillée avec versos et identifications), ou créez un **mini-site** à partager avec la famille, qui s'ouvre dans n'importe quel navigateur, sans internet.
 
@@ -97,7 +97,7 @@ Composez des albums dans l'ordre de votre choix, avec un « Nommé » propre à 
 
 ### Personnes et chronologie de vie
 
-[image personne-fiche.png]
+<img width="1304" height="821" alt="personne-fiche" src="https://github.com/user-attachments/assets/a0a462d0-bfb1-41b5-b882-c3d809cacbb3" />
 
 Chaque personne a sa fiche : ses dates et lieux, ses photos identifiées, les actes où elle apparaît, et sa chronologie de vie — naissance, baptême, photos, mariage, décès — avec son âge à chaque étape.
 
@@ -105,7 +105,7 @@ Chaque personne a sa fiche : ses dates et lieux, ses photos identifiées, les ac
 
 ### Module Archives — Registres & Actes
 
-[image registres.png]
+<img width="1304" height="821" alt="recherche" src="https://github.com/user-attachments/assets/bbea9c88-62f3-4590-90dd-26f1b0a4abf1" />
 
 Dépouillez vos registres (BMS, état civil, notariés…) avec leur cote d'archives. Saisissez les parties de chaque acte avec leur rôle, leur âge et leur profession : Onésime compose la source prête à citer, rattache la photo de l'événement, et propose de reporter l'acte sur les fiches des personnes.
 
@@ -113,7 +113,7 @@ Dépouillez vos registres (BMS, état civil, notariés…) avec leur cote d'arch
 
 ### Retrouver les doublons
 
-[image doublons.png]
+<img width="1304" height="821" alt="doublons" src="https://github.com/user-attachments/assets/b1944f7d-01ea-4e82-8173-7d2cdcf5882e" />
 
 Une même photo scannée deux fois ou renommée ? Onésime compare les images elles-mêmes, pas leurs noms, et vous indique laquelle garder. Retirer un doublon ne supprime jamais le fichier.
 
