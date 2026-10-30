@@ -7,7 +7,7 @@
 <div align="center">
 
 ![Version](https://img.shields.io/github/v/release/mrbrine25/Onesime?style=flat-square&color=8b5cf6&label=version)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue?style=flat-square&logo=windows)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?style=flat-square&logo=windows)
 ![Electron](https://img.shields.io/badge/Electron-31-47848F?style=flat-square&logo=electron)
 ![Licence](https://img.shields.io/badge/licence-propriétaire-orange?style=flat-square)
 [![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/N8ayZbzeye)
@@ -36,6 +36,8 @@ Sur la **[dernière version](https://github.com/mrbrine25/Onesime/releases/lates
 | Windows 10 / 11 | `Onesime-…-Setup.exe` |
 | Mac récent (puce Apple M1, M2, M3…) | `Onesime-…-mac-arm64.dmg` |
 | Mac Intel (avant 2020) | `Onesime-…-mac-x64.dmg` |
+| Linux : Ubuntu, Mint, Debian | `Onesime-…-linux-amd64.deb` (double-clic pour l'installer) |
+| Linux : autres distributions | `Onesime-…-linux-x86_64.AppImage` (à rendre exécutable ; demande libfuse2) |
 
 Les autres fichiers (`latest.yml`, `.blockmap`…) servent aux mises à jour automatiques : inutile de les télécharger.
 
@@ -208,6 +210,14 @@ La base de données SQLite est stockée **localement sur votre ordinateur** (ré
 Depuis **À propos**, vous pouvez sauvegarder cette base en un clic ou activer une sauvegarde automatique quotidienne (les 10 dernières sont gardées), dans le dossier de votre choix — idéalement sur un autre disque ou une clé USB.
 
 Seule exception, et seulement si vous la choisissez : une archive peut pointer vers un dossier de votre **OneDrive**. Onésime se connecte alors à votre compte Microsoft en **lecture seule** (il ne peut rien modifier, supprimer ni déposer sur votre OneDrive) et télécharge sur votre ordinateur les fichiers que vous ouvrez. Vos fiches, vignettes, personnes et tags restent, eux, uniquement sur votre machine.
+
+---
+
+## Onésime Scan
+
+**[Onésime Scan](https://github.com/mrbrine25/OnesimeScan)** est le logiciel de numérisation de la même famille. Posez plusieurs photos sur la vitre : chacune est trouvée, redressée, remise dans le bon sens et enregistrée à part, directement dans vos dossiers d'archive. Il sait aussi raviver les couleurs passées, effacer l'ombre de la reliure d'un registre et faire des PDF de plusieurs pages avec texte cherchable. Gratuit, Windows et Mac, tout reste sur votre ordinateur.
+
+👉 **[Télécharger Onésime Scan](https://github.com/mrbrine25/OnesimeScan/releases/latest)**
 
 ---
 
