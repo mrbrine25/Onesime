@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img width="1600" height="500" alt="banner" src="https://github.com/user-attachments/assets/f0061f98-9a6e-4b94-89b4-c04a632d3bbe" />
+  <img width="1600" height="500" alt="banner" src="https://github.com/user-attachments/assets/f0061f98-9a6e-4b94-89b4-c04a632d3bbe" />
 </div>
 
 <div align="center">
@@ -215,7 +215,7 @@ Seule exception, et seulement si vous la choisissez : une archive peut pointer v
 
 ## Onésime Scan
 
-**[Onésime Scan](https://github.com/mrbrine25/OnesimeScan)** est le logiciel de numérisation de la même famille. Posez plusieurs photos sur la vitre : chacune est trouvée, redressée, remise dans le bon sens et enregistrée à part, directement dans vos dossiers d'archive. Il sait aussi raviver les couleurs passées, effacer l'ombre de la reliure d'un registre et faire des PDF de plusieurs pages avec texte cherchable. Gratuit, Windows et Mac, tout reste sur votre ordinateur.
+**[Onésime Scan](https://github.com/mrbrine25/OnesimeScan)** est le logiciel de numérisation de la même famille. Posez plusieurs photos sur la vitre : chacune est trouvée, redressée, remise dans le bon sens et enregistrée à part, directement dans vos dossiers d'archive. Il sait aussi raviver les couleurs passées, effacer l'ombre de la reliure d'un registre et faire des PDF de plusieurs pages avec texte cherchable. Gratuit, Windows, Mac et Linux, tout reste sur votre ordinateur.
 
 👉 **[Télécharger Onésime Scan](https://github.com/mrbrine25/OnesimeScan/releases/latest)**
 
